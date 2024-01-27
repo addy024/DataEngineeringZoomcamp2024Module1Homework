@@ -182,5 +182,21 @@ Aliases:
 
   Answer: --rm 
 
+  Question 2. Understanding docker first run 
 
+  Run docker with the python:3.9 image in an interactive mode and the entrypoint of bash. Now check the python modules that are installed ( use pip list ).
 
+  What is version of the package wheel ?
+
+  Solution: 
+
+    $ docker run -it --entrypoint=bash python:3.9
+
+    /# pip list
+    Package    Version
+    ---------- -------
+    pip        23.0.1
+    setuptools 58.1.0
+    wheel      0.42.0
+  
+  Answer: 0.42.0

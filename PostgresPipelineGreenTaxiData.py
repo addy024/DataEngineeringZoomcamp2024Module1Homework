@@ -59,7 +59,7 @@ def main(params):
             break
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Ingest CSV data to Postgres')
+    parser = argparse.ArgumentParser(description='Ingest Green Taxi data to Postgres')
 
     parser.add_argument('--user', required=True, help='user name for postgres')
     parser.add_argument('--password', required=True, help='password for postgres')

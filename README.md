@@ -7,6 +7,7 @@
 #### Question 1. Knowing docker tags
 
 Which tag has the following text? - Automatically remove the container when it exits
+
 Solution:
     > docker run --help
     Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
@@ -181,5 +182,5 @@ Aliases:
 
   Answer: --rm 
 
-  
+
 
